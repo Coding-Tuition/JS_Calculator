@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  border: solid 2px rgb(97, 146, 175);
+}
+
+.result__container {
+  display: flex;
+  width: 100%;
+  height: 70px;
+}
+
+.buttons__container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.btn {
+  height: 40px;
+}
+
+.reset {
+  grid-column: 1/3;
+  background-color: lightgreen;
+}
+
+.del {
+  grid-column: 3/5;
+  background-color: lightgreen;
+}
+
+.enter {
+  grid-column: 2/4;
+  background-color: lightgreen;
+}
+
+.add,
+.subtract,
+.multiply,
+.divide {
+  background-color: rgb(55, 136, 235);
+}
